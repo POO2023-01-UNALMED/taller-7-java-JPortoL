@@ -15,13 +15,10 @@ public class Libro extends Escrito {
         this.interpretacion = interpretacion;
     }
 
-    public int palabrasTotales(){
-        int n = this.getPaginas()*2;
-        return n;
-    }
+    
 
     public int palabrasTotales(int palabrasPagina){
-        int n = this.getPaginas()*palabrasPagina;
+        int n = 2*palabrasPagina;
         return n;
     }
 
